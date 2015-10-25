@@ -17,3 +17,10 @@ certain changes and separate different commits in a more logical manner.
 
 You can group commits logically by only adding files implementing one logical
 change to the staging area before committing them.
+
+## What are some situations when branches would be helpful in keeping your
+## history organized? How would branches help?
+
+Branches are useful for developing new features in isolation from each other and
+the main path of development. They also make it easier to refer to different
+development paths by name instead of commit IDs, they are much easier to read.
