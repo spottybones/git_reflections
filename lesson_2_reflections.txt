@@ -1,0 +1,13 @@
+## What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repository creates the .git directory and subdirectories that
+will be used for holding the revision history of the project. Why do you need to
+do it? You have to start somewhere!
+
+## How is the staging area different from the working directory and the
+## repository? What value do you think it offers?
+
+The staging area holds a pointer to a version of a file or files that are ready
+to be committed to the repository. Since it doesn't have to hold ALL of the
+changes in your working directory if gives you the ability to commit only
+certain changes and separate different commits in a more logical manner.
