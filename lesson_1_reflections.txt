@@ -1,0 +1,60 @@
+1) How did viewing a diff between two versions help you spot the bug?
+
+The diff displayed only the lines that had changed (with a few surrounding for
+context) and their locations in the file. This made it easy to focus on just
+those lines without having to review the other 1,195 lines in the file. It also
+showed the locations (line numbers) of each of the changes so they would be
+easier to find in an editor.
+
+2) How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+ - It makes it easy to go back and review choices you made earlier in the
+   project.
+ - It allows you to "go out on a limb" and test new things without having
+   to worry about going back if they don't work out.
+
+3) What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+Pros:
+
+* The author makes the choice of what makes the most sense to commit as a chunk
+  so commits "make sense" and aren't some arbitrary choice made by the software
+  which doesn't make sense.
+* The author can add a description to the commit about why a particular change
+  was made.
+
+Cons:
+* The author has to remember to commit changes
+* More thought is required on what makes sense as a commit (this may be a Pro,
+  too).
+
+3) Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+
+Version control is designed for program source code in which different modules
+are spread across different files. Google Docs is mainly used for generating
+documents for human consumption and it is less likely that they will need to
+be pulled together.
+
+4) How can you use the commands git log and git diff to view the history of
+files?
+
+To find a commit of interest use `git log` to see a history of commits and their
+descriptions. Then use `git diff` to see the actual changes made between the
+commit of interest and the previous commit.
+
+5) How might using version control make you more confident to make changes that
+could break something?
+
+You can use the log to check out previous versions until you find the one that
+introduced the bug. Once you've found it you can then focus on on what changed
+between it and the previous commit to find the source fo the bug.
+
+6) Now that you have your workspace set up, what do you want to try using Git
+for?
+
+Code management, of course!
