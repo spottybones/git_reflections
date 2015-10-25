@@ -11,3 +11,9 @@ The staging area holds a pointer to a version of a file or files that are ready
 to be committed to the repository. Since it doesn't have to hold ALL of the
 changes in your working directory if gives you the ability to commit only
 certain changes and separate different commits in a more logical manner.
+
+## How can you use the staging area to make sure you have one commit per logical
+## change?
+
+You can group commits logically by only adding files implementing one logical
+change to the staging area before committing them.
