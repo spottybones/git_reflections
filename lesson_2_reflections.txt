@@ -24,3 +24,8 @@ change to the staging area before committing them.
 Branches are useful for developing new features in isolation from each other and
 the main path of development. They also make it easier to refer to different
 development paths by name instead of commit IDs, they are much easier to read.
+
+## How do the diagrams help you visualize the branch structure?
+
+The provide a graphic representation of the ancestry of the current commit, just
+like a family tree.
