@@ -29,3 +29,16 @@ development paths by name instead of commit IDs, they are much easier to read.
 
 The provide a graphic representation of the ancestry of the current commit, just
 like a family tree.
+
+## What is the result of merging two branches together? Why do we represent it
+## in the diagram the way we do?
+
+It creates a commit with the changes and history of two different parent
+commits. It's representation in the diagram shows the commits that made it's two
+parents.
+
+## What are the pros and cons of Git’s automatic merging vs. always doing merges
+## manually?
+
+The automatic merge will highlight conflicts for you and preserve the history of
+both parents of the commit.
