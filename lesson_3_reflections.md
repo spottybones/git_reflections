@@ -27,3 +27,11 @@ Use a branch for work inside a single repository.
 
 You can compare and merge changes from the last known state of the remote with
 your local branches without having to be online.
+
+## How would you collaborate without using Git or GitHub? What would be easier,
+## and what would be harder?
+
+I'd use a different version control system, probably one that retains a central
+repository. These can be simpler (perhaps not easier) to work with because
+there's only one copy of the repository. They can be more difficult to work with
+because they don't have the same collaboration features that Git and Github do.
