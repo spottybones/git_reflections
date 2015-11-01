@@ -35,3 +35,12 @@ I'd use a different version control system, probably one that retains a central
 repository. These can be simpler (perhaps not easier) to work with because
 there's only one copy of the repository. They can be more difficult to work with
 because they don't have the same collaboration features that Git and Github do.
+
+## When would you want to make changes in a separate branch rather than directly
+## in master? What benefits does each approach have?
+
+Working on a branch provides the ability to make changes and then throw them
+away without affecting the master and its history. This is helpful for
+experimenting. Making small changes, like fixing a very minor bug or
+documentation typo, can be done on the master if managing a whole branch for
+them would be overkill.
