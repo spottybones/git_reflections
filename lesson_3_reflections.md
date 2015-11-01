@@ -21,3 +21,9 @@ previous commit, within a repository.
 Use a **Fork** if you want to clone another's repository on Github to your own
 remote on Github. Use a **Clone** if either repository is not stored on Github.
 Use a branch for work inside a single repository.
+
+## What is the benefit of having a copy of the last known state of the remote
+## stored locally?
+
+You can compare and merge changes from the last known state of the remote with
+your local branches without having to be online.
