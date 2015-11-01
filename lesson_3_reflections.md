@@ -9,3 +9,15 @@ There are several reasons to use a remote repository:
 
 So you stay focused on your current work without being distracted by new cide
 coming in from the repository.
+
+## Describe the differences between forks, clones, and branches. When would you
+## use one instead of another?
+
+A Fork is a clone of a repository hosted on Github made on Github. A clone is a
+copy of another repository (which may reside on Github) to a non-Github hosted
+repository. A branch is a separate line of development, or a branch off a
+previous commit, within a repository.
+
+Use a **Fork** if you want to clone another's repository on Github to your own
+remote on Github. Use a **Clone** if either repository is not stored on Github.
+Use a branch for work inside a single repository.
